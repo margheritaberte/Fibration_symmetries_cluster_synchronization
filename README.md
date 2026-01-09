@@ -5,7 +5,7 @@ _Bertè, Margherita, Tommaso Gili ["Fibration Symmetries and Cluster Synchroniza
 
 ## Contents
 - 'Utilities/': folder containing python scripts with functions used in the notebooks.
-In particular the file **utilities_fibration.py** includes all the functions to compute the fibre partition (aka coarsest equitable partition or minimal balanced coloring) of nodes for graphs, multigraphs, hypergraphs.
+In particular the file **utilities_fibration.py** includes all the functions to compute the fibre partition (aka coarsest equitable partition or minimal balanced coloring) of nodes for undirected graphs, multigraphs, hypergraphs.
 - 'Data/': contains the MAG-10 dataset used as example in the Notebook **MAG_fibration_comparison.ipynb** (preprocessed and available at (https://github.com/TheoryInPractice/overlapping-ecc/tree/master/data/MAG-10)).
 - 'Examples_computing_fibres/': folder containing Jupyter Notebooks with examples of how to compute the fibre partition for hypergraphs and multigraphs.
 - 'Comparing_fibrations/': folder containing Jupyter Notebooks with examples of how to compare the fibre partition for hypergraphs and multigraphs built from the same data.
