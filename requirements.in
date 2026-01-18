@@ -1,0 +1,12 @@
+numpy
+scipy
+networkx
+xgi
+hypergraphx
+pandas
+matplotlib
+jupyterlab
+numba
+tqdm
+seaborn
+colorcet
