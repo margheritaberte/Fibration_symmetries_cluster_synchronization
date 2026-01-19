@@ -18,3 +18,50 @@ To visualize and realize the test hypergraphs we use the Python library [Hypergr
 To assign a color in the visualization we modified their script __draw_hypergraph_col.py__ to assign particular colors to the hypergraph nodes.
 
 The datasets (apart from MAG-10) used are from [XGI library](https://github.com/ComplexGroupInteractions/xgi).
+
+## Environment creation
+Steps to create a python virtual environment with all the needed packages to run the notebooks.
+
+_0. To create the latest versions of the packages in a new requirements.txt file_
+    
+    pip-compile requirements.in -o requirements.txt
+  
+_1. If virtualenv is not installed_
+
+    pip install virtualenv 
+
+_2. Create the directory_
+
+    mkdir fibration_hoi 
+
+_3. Enter in the directory_
+
+    cd fibration_hoi %ci entro
+
+_4. Create the virtual environment_
+
+    python -m venv fibration_hoi
+
+_5. Activate the env (Linux/Mac)_
+  
+    source fibration_hoi/bin/activate 
+
+_6. Upgrade (frequently needed)_
+
+    python -m pip install --upgrade pip
+
+_7. Install packages in the list_
+
+    pip install -r requirements.txt 
+
+_8. To see the installed packages_
+
+    pip list
+
+_9. Launch the jupyter notebook_
+
+    jupyter notebook
+
+_10. Deactivate after finishing_
+
+    deactivate
