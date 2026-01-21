@@ -36,7 +36,7 @@ _2. Create the directory_
 
 _3. Enter in the directory_
 
-    cd fibration_hoi %ci entro
+    cd fibration_hoi
 
 _4. Create the virtual environment_
 
